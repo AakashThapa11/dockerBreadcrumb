@@ -1,0 +1,9 @@
+.productContainer {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+.productContainer .rightContainer {
+  display: flex;
+  flex-direction: column;
+}/*# sourceMappingURL=ProductDetails.css.map */

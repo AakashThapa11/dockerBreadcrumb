@@ -1,0 +1,25 @@
+.mainContainer {
+  text-align: center;
+}
+.mainContainer .products-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  padding: 20px 0;
+  align-items: center;
+}
+.mainContainer .products-grid .card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+.mainContainer .products-grid .card .product-img {
+  width: 180px;
+  height: 180px;
+}
+.mainContainer .products-grid .card .product-title {
+  color: black;
+}
+.mainContainer .products-grid .card .product-price {
+  color: black;
+}/*# sourceMappingURL=Home.css.map */

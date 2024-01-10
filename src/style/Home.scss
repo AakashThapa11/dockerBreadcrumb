@@ -1,0 +1,30 @@
+.mainContainer {
+    text-align: center;
+
+    .products-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+        padding: 20px 0;
+        align-items: center;
+
+        .card {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+
+            .product-img {
+                width: 180px;
+                height: 180px;
+            }
+
+            .product-title {
+                color: black;
+            }
+
+            .product-price {
+                color: black;
+            }
+        }
+    }
+}
